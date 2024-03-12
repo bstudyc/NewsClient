@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="240dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/slide4"></ImageView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="250dp"
+                    android:text="让世界经济活力充分迸发出来"
+                    android:textStyle="bold"></TextView>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      习近平：要以公平正义为理念引领全球治理体系变革，维护以世界贸易组织为核心的多边贸易体制，在充分协商基础上，为人工智能、数字经济等打造各方普遍接受、行之有效的规则，为科技创新营造开放、公正、非歧视的有利环境，推动经济全球化朝着更加开放、包容、普惠、平衡、共赢的方向发展，"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      这段话出自2022年1月17日习近平主席在2022年世界经济论坛视频会议上发表的演讲。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      2001年12月11日，中国正式加入世界贸易组织，成为第143个成员。加入世界贸易组织标志着中国改革开放进入历史新阶段，是中国经济发展的重要一步，更对推动全球化发展、促进世界经济增长具有重要意义。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      入世22年来，我国不断扩大对外开放，始终坚定维护以世界贸易组织为核心的多边贸易体制，不仅以实际行动履行了入世承诺，更为世界经济贸易发展带来重要机遇。譬如，我国关税总水平由2001年的15.3%降至如今的7.3%，连续14年稳居全球第二大进口国地位；今年前十个月，全国新设立外商投资企业41947家，加拿大、英国、法国、瑞士、荷兰实际对华投资同比分别增长110.3%、94.6%、90%、66.1%、33%。此外，中国积极搭建同各国共享机遇、扩大交流的平台。就在刚刚过去的11月，第六届中国国际进口博览会、第二届全球数字贸易博览会、首届中国国际供应链促进博览会等多场大型展会先后成功举办，成果丰硕。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      与此同时，在共建“一带一路”倡议下，中欧班列、中老铁路、比雷埃夫斯港等标志性项目大幅提升了中国与共建国家间的贸易畅通水平。随着“丝路电商”深入发展，“双品网购节”“网上年货节”“买在金砖”“聚合中亚云品”等越来越多电子商务活动，既满足了我们国内消费者“买全球”的需求，也为促进各国电子商务发展提供着助力。"></TextView>
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="400dp"
+                    android:layout_height="270dp"
+                    android:src="@drawable/economyone"></ImageView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      当前，世界百年未有之大变局加速演进，世界经济复苏乏力，同时新一轮的科技革命与产业变革也在深刻影响国际经贸规则。面对前所未有的世界之变、时代之变和历史之变，我们要继续秉持共商共建共享原则，积极参与世界贸易组织改革，促进贸易和投资自由化便利化，践行真正的多边主义。在世贸组织框架下，与各国一道，共同推动国际经贸秩序朝着更加公平合理的方向发展，为完善全球治理贡献中国力量。"></TextView>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您对该文章的态度是:"></TextView>
+                <ImageButton
+                    android:id="@+id/like"
+                    android:layout_marginLeft="380dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/nolike"></ImageButton>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/talk"></ImageView>
+                <EditText
+                    android:id="@+id/comment"
+                    android:layout_marginRight="95dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:background="#D3D3D3"
+                    android:layout_height="wrap_content"></EditText>
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="330dp"
+                    android:textSize="15dp"
+                    android:layout_width="78dp"
+                    android:layout_height="45dp"
+                    android:text="发送"></Button>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="评论区"
+                android:layout_marginLeft="180dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:id="@+id/showcomment"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

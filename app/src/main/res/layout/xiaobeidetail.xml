@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffb3a7">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f47983"
+        app:navigationIcon="@drawable/baseline_keyboard_arrow_left_24"
+        app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="       “小蓓”新闻作为新闻客户端，旨在为用户提供新闻信息服务。每一位用户可以通过使用该客户端查看各类新闻，希望各位客户使用开心。如有疑问或者建议，请拨打客服电话：178XXXX2232"></TextView>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="再次感谢您的信任与使用"></TextView>
+</androidx.appcompat.widget.LinearLayoutCompat>

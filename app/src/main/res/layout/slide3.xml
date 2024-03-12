@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="80dp"
+                    android:src="@drawable/slide3"></ImageView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="200dp"
+                    android:text="火锅店给客人吃3年口水油"
+                    android:textStyle="bold"></TextView>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      近日，安徽淮南中院宣判一起生产、销售有毒、有害食品案。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      为节约经营成本，2019年1月1日至2021年10月21日期间，王某、牛某等人伙同厨师长及后厨工作人员、前厅经理等人，等顾客吃完火锅后，将含有牛油的火锅汤倒入放有滤网的桶内，将火锅的残渣过滤掉，将浮在上面的油品收集存放，次日，向顾客下单的火锅中添加，给顾客食用。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      至案发时，入川毛肚火锅店累计销售火锅锅底6.5万余个。经鉴定、审计，涉案火锅锅底销售金额共计170万余元。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      本案的“口水油”经认定属于废弃油脂，包含在“地沟油”的范畴之内，应以生产、销售有毒、有害食品罪定罪处罚。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      最终牛某、王某等13名被告人分别被判处有期徒刑十二年至一年，并处罚金125万元至2000元；同时判决支持安徽省消费者保护协会对涉案火锅店、牛某、王某提起的民事公益诉讼，判令各被告连带支付公益诉讼惩罚性赔偿金共计512万余元。"></TextView>
+                <ImageView
+                    android:layout_marginLeft="55dp"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/huoguoone"></ImageView>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您对该文章的态度是:"></TextView>
+                <ImageButton
+                    android:id="@+id/like"
+                    android:layout_marginLeft="380dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/nolike"></ImageButton>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/talk"></ImageView>
+                <EditText
+                    android:id="@+id/comment"
+                    android:layout_marginRight="95dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:background="#D3D3D3"
+                    android:layout_height="wrap_content"></EditText>
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="330dp"
+                    android:textSize="15dp"
+                    android:layout_width="78dp"
+                    android:layout_height="45dp"
+                    android:text="发送"></Button>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="评论区"
+                android:layout_marginLeft="180dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:id="@+id/showcomment"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

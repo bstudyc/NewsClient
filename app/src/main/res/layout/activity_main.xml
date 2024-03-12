@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="-4dp"
+                        android:background="#E34234"
+                        android:src="@drawable/maintop"></ImageView>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/clock"
+                        tools:ignore="TouchTargetSizeCheck"></ImageButton>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="43dp"
+                        android:text="实时更新"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageButton
+                        android:id="@+id/person"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="363dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/person"
+                        tools:ignore="TouchTargetSizeCheck"></ImageButton>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="351dp"
+                        android:layout_marginTop="43dp"
+                        android:text="个人主页"
+                        android:textStyle="bold"></TextView>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#D3D3D3"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="今日爆点：熊猫YY、夫妻冲突、火锅店事件、世界经济、学习历史"
+                    android:textSize="13dp"
+                    tools:ignore="TextSizeCheck"></TextView>
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tab_layout"
+                    app:tabTextColor="@color/black"
+                    app:tabSelectedTextColor="#FF0000"
+                    app:tabMode="scrollable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></com.google.android.material.tabs.TabLayout>
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.viewpager2.widget.ViewPager2>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

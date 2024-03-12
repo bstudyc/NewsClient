@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/slide5"></ImageView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="145dp"
+                    android:layout_marginTop="210dp"
+                    android:text="跟着总书记学历史"
+                    android:textStyle="bold"></TextView>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      中华文明在继承创新中不断发展，在应时处变中不断升华，积淀着中华民族最深沉的精神追求，是中华民族生生不息、发展壮大的丰厚滋养。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      跟着总书记学历史第二季之凿空西行路。2019年8月19日，习近平总书记前往莫高窟考察了解莫高窟历史沿革和文物保护研究情况，并走进洞窟察看历史悠久的彩塑、壁画。习近平总书记接着来到敦煌研究院，察看珍藏文物和学术成果展示，听取文物保护和研究、弘扬优秀历史文化情况介绍，并同有关专家、学者和文化单位代表座谈。让我们一起。"></TextView>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="420dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/img_1"></ImageView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      跟着总书记学历史第二季之遇见三星堆2023年7月26日，习近平总书记在四川省德阳市考察三星堆博物馆，了解当地历史文化遗址发掘研究、文物保护修复等情况。让我们一起，走进三星堆博物馆，共同来一场探秘之旅。"></TextView>
+                <ImageView
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/img_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"></ImageView>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您对该文章的态度是:"></TextView>
+                <ImageButton
+                    android:id="@+id/like"
+                    android:layout_marginLeft="380dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/nolike"></ImageButton>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/talk"></ImageView>
+                <EditText
+                    android:id="@+id/comment"
+                    android:layout_marginRight="95dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:background="#D3D3D3"
+                    android:layout_height="wrap_content"></EditText>
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="330dp"
+                    android:textSize="15dp"
+                    android:layout_width="78dp"
+                    android:layout_height="45dp"
+                    android:text="发送"></Button>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="评论区"
+                android:layout_marginLeft="180dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:id="@+id/showcomment"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

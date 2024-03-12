@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginLeft="85dp"
+                    android:layout_width="225dp"
+                    android:layout_height="161dp"
+                    android:src="@drawable/slide1"></ImageView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="170dp"
+                    android:text="回顾“丫丫”回国七个月的变化"
+                    android:textStyle="bold"></TextView>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      今年，旅美大熊猫丫丫23岁了，相当于人类的80岁，已经步入老年。遥想当年，大熊猫丫丫年仅3岁就辞别故乡，远赴美国，开启了长达20年的旅美生活。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      旅美20年，大熊猫丫丫都经历过什么？"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      2003年4月，3岁的丫丫与5岁的乐乐，被送上飞机，漂洋过海到了美国，开启旅美生活。初到美国孟菲斯动物园，大熊猫丫丫与乐乐备受关注，并且赢得许多人的喜爱和追捧，同时还登上了《时代》杂志儿童版的封面，可谓万众瞩目。为了迎接这一对大熊猫的到来，孟菲斯动物园建了大熊猫场馆，开辟土地种植竹子。丫丫与乐乐每天能够吃到新鲜的竹子，还有葡萄、甘蔗等零食。但对于大熊猫丫丫来说，从中国漂洋过海，到了异国他乡，在陌生的环境里，还需要慢慢适应。"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:letterSpacing="0.2"
+                    android:text="      大熊猫乐乐是雄性，比丫丫大两岁，在动物园里与丫丫一起生活，一起啃竹子，一起玩耍，一起追逐打闹，理所当然地成为彼此唯一的伴侣。也许是环境、气候的不同，大熊猫丫丫的受孕成功率很低很低。孟菲斯动物园为了让丫丫诞下后代，尝试对丫丫进行自然繁殖和人工授精。2007年，丫丫6岁，终于怀孕了，但不久后流产。检查原因是，丫丫体内黄体荷尔蒙指标低，无法使胚囊获得足够营养。2009年，丫丫再次流产。可怜的丫丫，承担着身体与精神的痛苦，只有乐乐能给她一些安慰了。时间到了2013年，本该是丫丫与乐乐回国的日期，但是孟菲斯动物园提出再续约10年。回国遥遥无期。"></TextView>
+
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      从2013年到2023年，是大熊猫丫丫在孟菲斯动物园生活的第二个十年，时间如流水，丫丫从年富力强的青年步入了老年。在2020年底，从大熊猫丫丫与乐乐的照片看，它们身躯瘦削，精神不济，一点都没有大熊猫该有的丰腴与精神。而且，丫丫的身上有粉红色的裸露生皮，乐乐的肩胛骨突出，明显是营养不良。动物园是不是对大熊猫很不好？可以看到的是，两只大熊猫生活的空间非常狭小，还堆积了粪便，很久不清理。其次，喂给大熊猫的食物，没有竹笋，也没有新鲜的竹子。丫丫的牙齿磨损，啃个竹子都很费劲，难怪会营养不良。"></TextView>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="420dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/yyone"></ImageView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      然而，动物园方给出的回应是，丫丫的体型较小，不是供给的食物不好导致营养不良，而是因为她的家族遗传原因，且患有皮肤病。她年纪大了，状态不如年轻时期是正常的。更糟糕的是，2023年2月，25岁的大熊猫乐乐因病死亡，丫丫失去了唯一的伴侣。丫丫瘦成皮包骨，仿佛变了个样。丫丫更孤独了，有时候绕着树干转圈，不知道在干什么。有时候趴在石头上半天不动一下。有时候抱着树干发呆，留给外界一个孤独的背影。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      旅日大熊猫香香成了大明星，旅韩大熊猫福宝被宠成小公主，旅法大熊猫圆梦是一个优雅绅士，都过着“集万千宠爱于一身”的生活。而旅美大熊猫丫丫的状况却很差，不仅身体瘦弱、患病，而且精神上也出现了抑郁症状。多地商场外墙上出现巨幅大熊猫丫丫的海报，许多同胞都很心疼丫丫，期盼着丫丫可以早日回国，落叶归根，安享晚年。在千万人的期盼中，终于在4月27日这天，旅美20年的大熊猫丫丫，回家了！"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      丫丫回国后，我国的兽医团队早就等候在机场，他们不仅为丫丫送去了新鲜的竹子，还会24小时陪护丫丫，前往封闭的隔离检疫区。6月6日，北京动物园微博 发布视频，“丫丫”回到北京动物园后，正在熟悉、适应这里的生活环境，“丫丫”身体状态平稳。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      至今，回国已有七个月，丫丫的身体状况越来越好，变回了白白胖胖的样子。祝愿丫丫余生健康快乐幸福，永远顺遂。"></TextView>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginLeft="1dp"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/yytwo"></ImageView>
+                    <ImageView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/yythree"></ImageView>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您对该文章的态度是:"></TextView>
+                <ImageButton
+                    android:id="@+id/like"
+                    android:layout_marginLeft="380dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/nolike"></ImageButton>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/talk"></ImageView>
+                <EditText
+                    android:id="@+id/comment"
+                    android:layout_marginRight="95dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:background="#D3D3D3"
+                    android:layout_height="wrap_content"></EditText>
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="330dp"
+                    android:textSize="15dp"
+                    android:layout_width="78dp"
+                    android:layout_height="45dp"
+                    android:text="发送"></Button>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="评论区"
+                android:layout_marginLeft="180dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:id="@+id/showcomment"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

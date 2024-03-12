@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="500dp"
+                    android:layout_height="240dp"
+                    android:src="@drawable/slide2"></ImageView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="250dp"
+                    android:text="男子打骂待产女儿被妻子刺死"
+                    android:textStyle="bold"></TextView>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      据@九派新闻 报道：女子与丈夫发生冲突后，又见其打骂即将分娩的女儿，遂持刀将其刺死。12月11日，辽宁省抚顺市人民检察院公布了该案起诉书。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      柏某某，女，1973年出生，小学文化，无职业，住辽宁省抚顺市抚顺县。经查，柏某某与王某甲(卒年51岁)系夫妻关系。2022年5月17日23时许，王某甲酒后回到家中，与柏某某因婚姻关系问题发生争吵，并发生肢体冲突。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      期间，王某甲的女儿王某乙出来劝架，遭到父亲打骂。柏某某看到王某甲打骂即将分娩的女儿，从厨房橱柜取出一把白钢刀返回客厅走廊处，趁王某甲不备捅刺其腹部一刀。后经急救人员现场诊治确认王某甲已死亡。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      经鉴定，王某甲系被他人用刃器作用于腹部造成肝脏、胃破裂致大失血而死亡。柏某某在案发现场被公安机关控制并带回。"></TextView>
+                <TextView
+                    android:letterSpacing="0.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      检方认为，柏某某因家庭矛盾，持刀故意伤害王某甲，致其死亡，其行为触犯了《中华人民共和国刑法》第二百三十四条第二款的规定，犯罪事实清楚，证据确实、充分，应当以故意伤害罪追究其刑事责任。"></TextView>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您对该文章的态度是:"></TextView>
+                <ImageButton
+                    android:id="@+id/like"
+                    android:layout_marginLeft="380dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/nolike"></ImageButton>
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/talk"></ImageView>
+                <EditText
+                    android:id="@+id/comment"
+                    android:layout_marginRight="95dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:background="#D3D3D3"
+                    android:layout_height="wrap_content"></EditText>
+
+                <Button
+                    android:id="@+id/yes"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="330dp"
+                    android:textSize="15dp"
+                    android:layout_width="78dp"
+                    android:layout_height="45dp"
+                    android:text="发送"></Button>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="评论区"
+                android:layout_marginLeft="180dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:id="@+id/showcomment"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
